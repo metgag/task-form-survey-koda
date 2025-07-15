@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Form survey perokok">
+    <meta name="keywords" content="form, survey, perokok">
+    <meta name="author" content="Rayhan Syahputra">
+    <link rel="icon" href="./asset/images/cigarr.png">
+    <title>Form Survey Perokok</title>
+</head>
+
+<body>
+    <form action="">
+        <div><label for="name">Nama:</label>
+            <input type="text" id="name">
+        </div>
+        <div><label for="age">Umur:</label>
+            <input type="number" id="age">
+        </div>
+        <div><label>Jenis Kelamin:</label><br>
+            <input type="radio" name="gender" id="laki-laki"
+                value="laki-laki"><label for="laki-laki">Laki-laki</label>
+            <input type="radio" name="gender" id="perempuan"
+                value="perempuan"><label for="perempuan">Perempuan</label>
+        </div>
+        <div><label for="is-smoker">Apakah anda seorang perokok?</label><br>
+            <select name="is-smoker" id="is-smoker">
+                <option value="no">Tidak</option>
+                <option value="yes">Ya</option>
+            </select>
+        </div>
+        <div><label>Brand rokok?</label><br>
+            <input type="checkbox" name="cig-brand" id="djarum"><label for="djarum">Djarum</label>
+            <input type="checkbox" name="cig-brand" id="sam-soe"><label for="sam-soe">Dji Sam Soe</label>
+            <input type="checkbox" name="cig-brand" id="gudang-garam"><label for="gudang-garam">Gudang Garam</label>
+            <input type="checkbox" name="cig-brand" id="marlboro"><label for="marlboro">Marlboro</label>
+            <input type="checkbox" name="cig-brand" id="sampoerna"><label for="sampoerna">Sampoerna</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <a href="page/table.html">Hasil survey table</a>
+</body>
+
+</html>
